@@ -91,7 +91,7 @@ Ys2 = Y2[Z2].reshape((100,100))
 Us2 = U_list_2[-1]
 Us2 = Us2[Z2].reshape((100,100))
 ax2.plot_surface(Xs2, Ys2,Us2, cmap=plt.get_cmap('viridis', 256), edgecolor=None, linewidth=0, antialiased=False)#, edgecolor=None, linewidth=0, antialiased=False)
-ax2.set_title(r'local extrema')
+ax2.set_title(r'local extremum')
 ax2.set_xlabel(r'$x_1$')
 ax2.set_ylabel(r'$x_2$')
 #
